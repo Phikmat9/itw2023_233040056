@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eiger shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header class="header">
+            <div class="hero">
+                <h2 class="heading">Eiger Shop</h2>
+                <p class="sub-heading">Tas & Sepatu</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 500K</h4>
+                <p class="item">Tas</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 350K</h4>
+                <p class="item">Sepatu</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="brand">Eiger Merch</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+
+            <div class="menu-toggle">
+                <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+
+        <section class="services">
+            <div class="service">
+                <div class="icon">🏠</div>
+                <h3>prodak</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nobis sequi, distinctio ut delectus mollitia deserunt.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">🔧</div>
+                <h3>problem</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nobis sequi, distinctio ut delectus mollitia deserunt.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">📞</div>
+                <h3>kontak</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nobis sequi, distinctio ut delectus mollitia deserunt.
+                </p>
+            </div>
+            <div class="service">
+                <div class="icon">🪑</div>
+                <h3>furnitur</h3>
+                <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nobis sequi, distinctio ut delectus mollitia deserunt.
+                </p>
+            </div>  
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="img/tas1.png" alt="">
+            <img src="img/tas2.png" alt="">
+            <img src="img/sepatu.png" alt="">
+            <img src="img/sepatu2.png" alt="">
+            <img src="img/topi.png" alt="">
+            <img src="img/topi2.png" alt="">
+            <img src="img/jam-tangan.png" alt="">
+            <img src="img/jam-tangan2.png" alt="">
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-text">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="contact-icon">
+                <a href="https://www.instagram.com/hikmat.pandu/"><i class='bx bxl-instagram'>hikmat.pandu</i></a>
+                <a href="#"><i class='bx bxl-github'></i></a>
+            </div>
+        </section>
+
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+    </script>
+</body>
+</html>

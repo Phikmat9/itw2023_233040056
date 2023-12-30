@@ -53,6 +53,7 @@ nav ul li a:hover {
     padding: 10px 25px;
     border-radius: 30px;
     transition: transform .4s;
+
    
 }
 .btn:hover{
@@ -310,4 +311,20 @@ footer p:nth-child(2){
     position: absolute;
     color: #20b2aa;
     bottom: 35px;
+}
+
+
+@media screen and (max-width:768px) {
+    #maincontent{
+        width: auto;
+        float: none;
+    }
+    #sidebar{
+        width: auto;
+        float: none;
+    }
+    .about-text h2{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
